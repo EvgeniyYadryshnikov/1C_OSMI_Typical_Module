@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="587e351a-66c1-421c-beed-20041f7f6f37">
+  <name>ОСМИ_КэшПараметровHTTPSАвторизации_authorization</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дайджест для HTTPS-Авторизации (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:SessionParameter>

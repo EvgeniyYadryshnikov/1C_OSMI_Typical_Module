@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed1c013e-141d-4685-a874-afc1242a22ee">
+  <producedTypes>
+    <containerType typeId="e57115d2-3827-4ce7-9a52-0142393439d6" valueTypeId="620b8eeb-b9bb-4f26-939f-fe95fccff8f4"/>
+  </producedTypes>
+  <name>ОСМИ_ДисконтнаяКарта</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ дисконтная карта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОСМИ_Тест</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01223e53-3c64-4750-9862-eb9fc9297d53">
+  <name>ОСМИ_Информация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация (ОСМИ)</value>
+  </synonym>
+</mdclass:CommonPicture>

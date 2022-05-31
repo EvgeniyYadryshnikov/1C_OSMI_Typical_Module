@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a92e01d-eb18-4776-ad85-06965d27c54e">
+  <name>ОСМИ_ОтправитьПоСМС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить по СМС</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DefinedType.ОСМИ_ДисконтнаяКарта</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

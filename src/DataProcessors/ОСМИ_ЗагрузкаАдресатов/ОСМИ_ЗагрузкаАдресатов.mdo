@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e001118-4f55-4b2b-80d3-3c4be4aa44b2">
+  <producedTypes>
+    <objectType typeId="ae2283e4-4b7e-4c94-abc1-ee3b61a356d7" valueTypeId="28c6369f-446d-4b58-885c-797eddbaef4f"/>
+    <managerType typeId="31d3f9fe-2ceb-4f24-96c2-a89fa2f97cfc" valueTypeId="7f9ef007-2387-4734-805d-1ac5105d5c4b"/>
+  </producedTypes>
+  <name>ОСМИ_ЗагрузкаАдресатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка адресатов ОСМИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОСМИ_ЗагрузкаАдресатов.Form.Форма</defaultForm>
+  <forms uuid="e5ce1d2b-d9c1-4c1a-a8d0-6623ac1d1c7a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение адресатов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

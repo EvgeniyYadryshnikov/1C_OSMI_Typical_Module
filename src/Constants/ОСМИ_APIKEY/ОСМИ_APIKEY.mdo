@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94c77b49-cab5-47e6-8c04-e9cb410977ad">
+  <producedTypes>
+    <managerType typeId="f21168e2-d95b-4715-81af-2ee9dc26f351" valueTypeId="101c022e-30e0-4b0d-9235-744aef848cc4"/>
+    <valueManagerType typeId="fb8b3801-5696-4222-b087-332d8e461fd2" valueTypeId="d7902c6e-4c0e-4d25-81f1-7655e3299379"/>
+    <valueKeyType typeId="7f8f5ddd-481d-55fa-833e-6950c3197b2a" valueTypeId="c3c7d672-a4f8-508e-873d-b602602ed02d"/>
+  </producedTypes>
+  <name>ОСМИ_APIKEY</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль ОСМИ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

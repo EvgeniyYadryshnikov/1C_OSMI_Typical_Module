@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04414cbb-dbe6-4252-a30d-7b494a6b5d0a">
+  <producedTypes>
+    <refType typeId="506d284a-5846-4c7c-85ab-569796b804c3" valueTypeId="99f29690-fcab-4ec9-bea6-e07cbeb1d158"/>
+    <listType typeId="c94eb2ac-a8ad-49d1-8a6b-2be7bb789c16" valueTypeId="9f1378ae-f272-4007-83ed-f69abec868cc"/>
+    <managerType typeId="22998d08-465e-4079-b8ef-e456af144eb2" valueTypeId="46592139-a019-4a27-b5db-3e4d5c4443fa"/>
+  </producedTypes>
+  <name>ОСМИ_Действие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действие (ОСМИ)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="7745c8db-1f33-4f76-a8da-f9fdc31846f2">
+    <name>ОтправкаДанныхКартыНаСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка данных карты на сервер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73e41861-e471-43d8-9940-984c08969679">
+    <name>ПушРассылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пуш рассылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c03de27c-e461-4200-9709-179d3c885203">
+    <name>МаркетинговаяАкция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркетинговая акция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3de81f4-9659-4430-944e-61d46b9ffd3d">
+    <name>ЗагрузкаАнкетныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка анкетных данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bba89b2a-90eb-464e-8f53-c77519ff71d1">
+    <name>ПереводКартыНаДругойШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод карты на другой шаблон</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

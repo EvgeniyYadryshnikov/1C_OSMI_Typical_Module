@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eb58e83-61fa-4d2c-9d56-a428e26b1680">
+  <producedTypes>
+    <refType typeId="346b4a95-c5ad-4970-a2b6-c1c61c6a058f" valueTypeId="0450cb7f-0f54-4e4c-a365-5de3698dee0d"/>
+    <listType typeId="6b8b176d-d7c8-48d0-9c6d-a2aa53ca70a3" valueTypeId="c8904852-b5eb-49d9-af8f-467a15edd24f"/>
+    <managerType typeId="8022e111-a585-47c8-a2b1-c40cab92e607" valueTypeId="a77d3155-b0a6-49f2-806a-d2e84dd71434"/>
+  </producedTypes>
+  <name>ОСМИ_ТипыКартинок</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ типы картинок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ee9b549-9547-4424-901f-da4bdee3a50e">
+    <name>logo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логотип</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9991d751-3764-43f4-a721-a13f19eb9df3">
+    <name>strip</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2579ed52-cd44-4397-950a-58413eb9bf78">
+    <name>icon</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иконка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3200e1ac-74f3-4263-8615-be492f60da2b">
+    <name>background</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34e7e40d-b29c-48d6-8dcd-e38811a24ab6">
+    <name>thumbnail</name>
+    <synonym>
+      <key>ru</key>
+      <value>Миниатюра</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

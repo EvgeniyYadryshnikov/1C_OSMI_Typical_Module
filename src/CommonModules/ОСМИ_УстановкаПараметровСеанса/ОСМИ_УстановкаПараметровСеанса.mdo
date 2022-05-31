@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="732a28bb-2dd1-40fa-b8a3-ece43d689e76">
+  <name>ОСМИ_УстановкаПараметровСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка параметров сеанса (ОСМИ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6328035c-ef33-416a-9597-c41140da7128">
+  <name>ОСМИ_Администратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администратор (ОСМИ)</value>
+  </synonym>
+</mdclass:Role>

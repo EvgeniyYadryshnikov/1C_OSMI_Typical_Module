@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63ac7a7b-2de8-4b0e-93af-e9eeb13867a0">
+  <name>ОСМИ_СоздатьЭлектроннуюКарту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать электронную карту</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DefinedType.ОСМИ_ДисконтнаяКарта</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

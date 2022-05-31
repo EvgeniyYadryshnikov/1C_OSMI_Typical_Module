@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86f40e08-63cd-4b20-be41-a7cc0dcb8a27">
+  <name>OSMI_Event</name>
+  <synonym>
+    <key>ru</key>
+    <value>OSMI event</value>
+  </synonym>
+  <namespace>http://www.sample-package.org</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>b26435e4-7165-4c48-a868-206576bfa27c</value>
+  </xdtoPackages>
+  <descriptorFileName>osmi_ws.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="c92e782e-e1a2-4c79-bcc4-a772c2434200">
+    <name>Event</name>
+    <synonym>
+      <key>ru</key>
+      <value>Event</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>Response</name>
+      <nsUri>http://localhost/request</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Event</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="9cb538b4-0ead-45c7-810b-d924b5fd5413">
+      <name>Event</name>
+      <synonym>
+        <key>ru</key>
+        <value>Event</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="20e60509-4853-4962-abc6-74e3fec0bc02">
+      <name>Serial</name>
+      <synonym>
+        <key>ru</key>
+        <value>Serial</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

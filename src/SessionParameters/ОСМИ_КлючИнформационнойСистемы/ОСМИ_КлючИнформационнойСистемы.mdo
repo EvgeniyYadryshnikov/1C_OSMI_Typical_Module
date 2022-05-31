@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a0942b0-c300-4718-9307-0417790530be">
+  <name>ОСМИ_КлючИнформационнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ информационной системы (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>32</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

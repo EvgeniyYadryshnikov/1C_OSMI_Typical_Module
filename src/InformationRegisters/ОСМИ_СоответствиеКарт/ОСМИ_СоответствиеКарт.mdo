@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="287e6bf2-2207-43c0-bf6e-d0c3bc384892">
+  <producedTypes>
+    <selectionType typeId="7d150ec2-182e-40f1-b9fa-b497774199d9" valueTypeId="ec8fe565-a53c-4276-bc93-c14f168a92ff"/>
+    <listType typeId="6f9d16ee-84fa-4234-ae44-6c1966a55094" valueTypeId="1e6fb8c2-4c38-4154-8d84-262d7b7cbf7f"/>
+    <managerType typeId="2543d88f-49c8-4abe-8436-e707f13a05b9" valueTypeId="7a21e834-614d-4381-9ca3-980520d0bc14"/>
+    <recordSetType typeId="0cdf7236-3dbe-46d9-982c-d55d2054a045" valueTypeId="197eb0ac-dd24-444e-9490-4a7e02cc9145"/>
+    <recordKeyType typeId="3b9b6f0b-9d03-4a79-91bc-9b3c9af820c4" valueTypeId="6760df11-d500-46a5-ab06-2b95ee43c665"/>
+    <recordType typeId="12377cd6-2e0a-4893-bdca-0664147bf343" valueTypeId="5e3963d4-6d35-4a8c-96a8-cc77240b7afc"/>
+    <recordManagerType typeId="912e61ad-65ab-4ffa-aa00-2e6225593741" valueTypeId="4df6c041-e3da-485b-bf6f-fcf0fa857836"/>
+  </producedTypes>
+  <name>ОСМИ_СоответствиеКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие карт ОСМИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОСМИ_СоответствиеКарт.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОСМИ_СоответствиеКарт.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="80a61b6b-cc5a-4f98-bada-6edac82a8af2">
+    <name>ОбъектБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект базы</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОСМИ_ДисконтнаяКарта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d0861a0b-2c65-4180-b9e7-97998a4e2b49">
+    <name>ДатаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1b6a6852-c127-4073-9411-9a2f9ca48476">
+    <name>ЭлектроннаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОСМИ_ЭлектронныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="44bc5cef-5a45-4621-afe4-1e581c520c77">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8d53ab71-e563-4a9f-9fec-9dc558967bdd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

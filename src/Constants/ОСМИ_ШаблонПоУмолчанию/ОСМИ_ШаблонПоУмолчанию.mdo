@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e83781e-1648-40a3-b57b-68a99f0e0642">
+  <producedTypes>
+    <managerType typeId="5a070fd2-fbee-416c-a497-03938b4ac477" valueTypeId="33bcbeba-be1b-432b-a76e-01a80ee25d34"/>
+    <valueManagerType typeId="49d2cc39-d599-4987-8c47-1537fac21f33" valueTypeId="93d203fa-5b70-4189-86f7-bd8505c7d78a"/>
+    <valueKeyType typeId="233481a4-a2ad-583c-90f0-76cb93e929a4" valueTypeId="4c822509-b0de-5a6d-9231-a62aca51c0fa"/>
+  </producedTypes>
+  <name>ОСМИ_ШаблонПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон по умолчанию (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ОСМИ_ШаблоныЭлектронныхКарт</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

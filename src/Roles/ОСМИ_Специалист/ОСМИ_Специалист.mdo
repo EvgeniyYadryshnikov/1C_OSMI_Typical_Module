@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84ef9c4f-f6e8-4dcb-a606-8b1f356ba780">
+  <name>ОСМИ_Специалист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специалист (ОСМИ)</value>
+  </synonym>
+</mdclass:Role>

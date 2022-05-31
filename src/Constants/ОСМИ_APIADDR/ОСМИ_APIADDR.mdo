@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf7a7ce3-8ab1-4f4d-b83a-52c3f9d02f1a">
+  <producedTypes>
+    <managerType typeId="a914a626-4d32-4338-8660-17f3cd9a5bb7" valueTypeId="91a4e8be-0615-479b-80cf-c3c45a204f2e"/>
+    <valueManagerType typeId="106895b9-04f3-48d9-bb69-50b5180a6d4d" valueTypeId="b6e87cd9-fcc6-46c0-ba98-72604421876c"/>
+    <valueKeyType typeId="3a7436fe-4c2f-5c52-b601-70d34bc84efd" valueTypeId="9478ca13-d474-561f-b7e0-ab70e1c9217b"/>
+  </producedTypes>
+  <name>ОСМИ_APIADDR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес сервиса ОСМИ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

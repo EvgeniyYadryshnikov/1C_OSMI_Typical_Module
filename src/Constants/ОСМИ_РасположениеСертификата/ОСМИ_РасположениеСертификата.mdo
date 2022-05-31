@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fd04220-0fa5-41bc-951e-88627e92dd06">
+  <producedTypes>
+    <managerType typeId="18f3e30c-7e09-4860-a0a3-e7c5d9e98237" valueTypeId="8fb93036-275d-43dc-a9a5-40432388c445"/>
+    <valueManagerType typeId="d2de1af9-dba1-450d-a445-c3eabc59f88d" valueTypeId="4200e02c-69a1-41fa-bd4e-2bd7d621f129"/>
+    <valueKeyType typeId="94711034-50df-51f9-b437-4af332b4bdf0" valueTypeId="e36d9c32-0914-5b78-b519-142ed1969cd9"/>
+  </producedTypes>
+  <name>ОСМИ_РасположениеСертификата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расположение сертификата (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

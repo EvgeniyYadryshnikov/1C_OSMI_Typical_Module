@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f08030c7-607c-4f59-aed1-ab4c83f82e93">
+  <producedTypes>
+    <managerType typeId="5e75ae05-b2b1-4b9f-a03c-1b2e50595e37" valueTypeId="7ed0c0ba-5769-46bb-bcc5-26fd7d1babb8"/>
+    <valueManagerType typeId="263ea897-b9cf-41de-bf2d-2475229f11af" valueTypeId="f9a73221-3543-4f55-b774-a13faa6778a3"/>
+    <valueKeyType typeId="dea59a1e-994b-5a03-8f62-2c8db3fc3df3" valueTypeId="cc6a29eb-1745-52f2-a34d-a2e47aa6e9b5"/>
+  </producedTypes>
+  <name>ОСМИ_ПодсистемаВключена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема ОСМИ включена</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

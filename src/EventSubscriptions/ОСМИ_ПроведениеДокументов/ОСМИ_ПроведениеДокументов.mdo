@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f4c6642-5852-4979-b9f2-a27ff5c8221e">
+  <name>ОСМИ_ПроведениеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ проведение документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.ОСМИ_ПодпискиНаСобытия.ПроведениеДокументовОбработкаПроведения</handler>
+</mdclass:EventSubscription>

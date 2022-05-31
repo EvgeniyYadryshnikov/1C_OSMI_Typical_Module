@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "settings": {
+    "structure-consructor-too-many-keys": {
+      "enabled": false
+    },
+    "method-too-many-params": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc4b9024-ceb8-4de4-acf1-6976b631f4a5">
+  <name>ОСМИ_РегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ регламентные задания</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

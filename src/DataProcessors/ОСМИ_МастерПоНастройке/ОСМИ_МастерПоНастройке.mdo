@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1d0e1d8-0c35-4e9b-93f3-97252873baad">
+  <producedTypes>
+    <objectType typeId="c7128cbd-6dc8-4952-8bec-19feaa8bf854" valueTypeId="7092e5fd-0d57-4625-b9be-7c47f5f008a9"/>
+    <managerType typeId="8290cb6d-62a9-430a-b612-0c4f6c0adcad" valueTypeId="7664b68a-2c2f-4978-9b74-f4e5a945e24d"/>
+  </producedTypes>
+  <name>ОСМИ_МастерПоНастройке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка подсистемы ОСМИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОСМИ_МастерПоНастройке.Form.ФормаНастройкиОсновная</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5d5366cc-eadb-4efb-9459-d082d53fa457">
+    <name>ФормаНастройкиОсновная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки основная</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

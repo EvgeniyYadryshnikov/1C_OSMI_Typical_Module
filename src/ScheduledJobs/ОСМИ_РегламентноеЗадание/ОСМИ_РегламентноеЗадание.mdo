@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74f39132-6f9a-4893-b9df-dbd4beb97f08">
+  <name>ОСМИ_РегламентноеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ регламентное задание</value>
+  </synonym>
+  <methodName>CommonModule.ОСМИ_РегламентныеЗадания.ОСМИ_РегламентноеЗадание</methodName>
+  <description>Шаблонное регламентное задание</description>
+  <key>ШаблонноеРегламентноеЗадание</key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

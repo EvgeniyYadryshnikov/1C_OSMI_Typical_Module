@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30104bc8-306a-4ea9-b11d-c7f205859133">
+  <producedTypes>
+    <refType typeId="7038abbb-9a96-40f8-b44c-80a61f3b8c6f" valueTypeId="4a1ca43f-b7d9-4228-bc2e-0ae6954714a8"/>
+    <listType typeId="955f2032-319b-4c7c-8e62-49bcd49351e3" valueTypeId="cfa56d9e-4e7e-4f01-bf31-92ca19019f73"/>
+    <managerType typeId="3e47f96e-95b8-49d5-81f6-d89014cfcc30" valueTypeId="dfd853c5-0c9f-4503-83b2-a9aadb8d0630"/>
+  </producedTypes>
+  <name>ОСМИ_СодержимоеБаркодаПодписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ содержимое баркода/подписи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5fd55a09-0cc7-4071-a07f-463547f4e916">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5539ab8f-1aaa-49f1-8446-a24452d5c260">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник данных или статический текст</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

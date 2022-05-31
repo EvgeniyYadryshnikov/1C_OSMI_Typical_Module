@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78892dde-bb49-4aee-8575-53987a8baf84">
+  <producedTypes>
+    <managerType typeId="280ae95e-061f-4ce0-a0b3-fdd485d41256" valueTypeId="407ec577-2cca-4e35-8779-f63aa5a2b0cf"/>
+    <valueManagerType typeId="09addf00-d9bf-4f4b-ae1b-5dd7667e7648" valueTypeId="753ccb72-4863-43a9-9b96-56fdead4afdd"/>
+    <valueKeyType typeId="c66fb005-4a28-5165-bce4-deb23245d028" valueTypeId="e75f8ef2-d991-507c-96c9-fd3c88c595f9"/>
+  </producedTypes>
+  <name>ОСМИ_КлиентскийСертификат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиентский сертификат (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

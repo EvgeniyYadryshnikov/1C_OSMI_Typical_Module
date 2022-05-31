@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4fbeb36-683c-45aa-8339-c4108b0b34e6">
+  <name>ОСМИ_Общие8313</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ общие8313</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

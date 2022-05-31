@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ae63dca-92d0-4e44-a113-a6db588f8fee">
+  <producedTypes>
+    <objectType typeId="6d53ae43-438a-4224-a2fc-5aa47e663c06" valueTypeId="39cd1b23-f6e0-46a2-a59b-50da1588a690"/>
+    <managerType typeId="a2a4de7a-20b0-4e16-b603-60222b3f9097" valueTypeId="a2f3c865-e83e-4286-ac1c-fb1adb705099"/>
+  </producedTypes>
+  <name>ОСМИ_СтатусыДоставок</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ статусы доставок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОСМИ_СтатусыДоставок.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="93e08176-05c2-47d0-860a-849c4295f186">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОСМИ_ДинамическаяАкция</types>
+      <types>DocumentRef.ОСМИ_ПушРассылка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="a7bdb41c-30ab-4f37-9eb4-e6bead6e4f93">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

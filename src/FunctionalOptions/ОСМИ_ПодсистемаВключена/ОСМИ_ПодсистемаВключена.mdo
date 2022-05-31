@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="777c3f26-5fab-4002-9fad-57acaff10146">
+  <name>ОСМИ_ПодсистемаВключена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема включена</value>
+  </synonym>
+  <location>Constant.ОСМИ_ПодсистемаВключена</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ОСМИ_ОткрытьФормуЭлектроннойКарты</content>
+  <content>CommonCommand.ОСМИ_ОтправитьПоСМС</content>
+  <content>CommonCommand.ОСМИ_ОтправитьПоЭлектроннойПочте</content>
+  <content>CommonCommand.ОСМИ_СоздатьЭлектроннуюКарту</content>
+  <content>CommonCommand.ОСМИ_ПроверитьДоставку</content>
+  <content>Catalog.ОСМИ_ЭлектронныеКарты</content>
+  <content>Catalog.ОСМИ_ШаблоныЭлектронныхКарт</content>
+  <content>Catalog.ОСМИ_ИсточникиДанных</content>
+  <content>Catalog.ОСМИ_НастройкиСобытий</content>
+  <content>Catalog.ОСМИ_РегистрационныеГруппы</content>
+  <content>Catalog.ОСМИ_Картинки</content>
+  <content>Document.ОСМИ_ПушРассылка</content>
+  <content>Document.ОСМИ_ДинамическаяАкция</content>
+  <content>InformationRegister.ОСМИ_СоответствиеКарт</content>
+  <content>InformationRegister.ОСМИ_ДатыОбновлений</content>
+  <content>Report.ОСМИ_СтатусыДоставок</content>
+  <content>Constant.ОСМИ_EmailАдминистратора</content>
+  <content>Constant.ОСМИ_ПодсистемаВключена</content>
+  <content>Constant.ОСМИ_APIADDR</content>
+  <content>Constant.ОСМИ_ПарольОтСертификата</content>
+  <content>Constant.ОСМИ_РасположениеСертификата</content>
+  <content>Constant.ОСМИ_ИспользоватьСертификат</content>
+  <content>Constant.ОСМИ_ШаблонПоУмолчанию</content>
+  <content>Constant.ОСМИ_КлиентскийСертификат</content>
+  <content>Constant.ОСМИ_APIKEY</content>
+  <content>Constant.ОСМИ_APIID</content>
+  <content>CommonCommand.ОСМИ_ПроверкаШаблоновКарт</content>
+  <content>Catalog.ОСМИ_Тест</content>
+  <content>DataProcessor.ОСМИ_ЗагрузкаАдресатов</content>
+  <content>Constant.ОСМИ_КлючИнформационнойСистемы</content>
+  <content>Enum.ОСМИ_Действие</content>
+  <content>Enum.ОСМИ_СодержимоеБаркодаПодписи</content>
+  <content>Enum.ОСМИ_ТипыКартинок</content>
+</mdclass:FunctionalOption>

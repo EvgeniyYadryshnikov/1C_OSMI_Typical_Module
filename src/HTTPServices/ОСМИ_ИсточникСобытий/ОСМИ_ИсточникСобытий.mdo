@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdf5e48d-5d36-4771-add0-90150214df54">
+  <name>ОСМИ_ИсточникСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ источник событий</value>
+  </synonym>
+  <rootURL>osmievent</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="b72eaa7c-a182-4c93-aa22-f9cd8d2d6450">
+    <name>Запрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="bc9f26ee-5aaf-4cd8-8fa1-071de0644b6e">
+      <name>ANY</name>
+      <synonym>
+        <key>ru</key>
+        <value>ANY</value>
+      </synonym>
+      <comment>Взможны POST и GET </comment>
+      <httpMethod>Any</httpMethod>
+      <handler>ЗапросANY</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b59cdc2-6b37-44f2-a98e-6c19499bd724">
+  <producedTypes>
+    <managerType typeId="7f0cc713-29b0-4b6d-b06e-1a91a7e1bd39" valueTypeId="16f73807-9377-4dd5-be7a-46ef42483667"/>
+    <valueManagerType typeId="8f074311-b0d4-4a59-bb66-90a1912fa12a" valueTypeId="1e2bc76c-9a25-4cc7-98cc-18c5000442a1"/>
+    <valueKeyType typeId="24ce83f3-bdc2-428b-85e6-6515f50b2e53" valueTypeId="9991f50e-7b25-4904-8a6a-fb183551a691"/>
+  </producedTypes>
+  <name>ОСМИ_КлючИнформационнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ информационной системы (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>32</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

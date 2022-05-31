@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8516071-e7d2-49b6-b544-0a565a836edf">
+  <producedTypes>
+    <managerType typeId="2465f13e-2dcf-4be5-9a33-cb49be81979b" valueTypeId="c944de25-5b0f-4587-87c8-0ae39c160929"/>
+    <valueManagerType typeId="ae471050-7d17-4a86-bd8b-db280b205b8e" valueTypeId="0179565b-4997-4040-888f-b61a6ffe9194"/>
+    <valueKeyType typeId="81943e19-80ec-529e-b7b9-7197a9b36ad5" valueTypeId="2542d835-5ae5-50b3-ace9-b5088a42e037"/>
+  </producedTypes>
+  <name>ОСМИ_EmailАдминистратора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Email администратора (ОСМИ)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

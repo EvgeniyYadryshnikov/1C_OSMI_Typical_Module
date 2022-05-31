@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8064021-a03f-49ce-b263-5b5cfb4d4f16">
+  <producedTypes>
+    <selectionType typeId="aa1caf04-a0a0-4c40-af31-eac2f9a52425" valueTypeId="9595a8ce-1dce-4d9a-81eb-c5b736a9b6a3"/>
+    <listType typeId="46444c00-c56f-4fa7-93fc-76cf4e9e72fa" valueTypeId="eb8bd522-2d6c-4e22-94e1-06d26d2a5c9a"/>
+    <managerType typeId="6e231b44-f14b-4607-b91a-e89be439d223" valueTypeId="96f25a7d-32dd-40e4-9086-a630b1d071e9"/>
+    <recordSetType typeId="086228df-ff47-4602-819f-90ffb67cb840" valueTypeId="410becbd-5a55-4653-b321-4cc146941462"/>
+    <recordKeyType typeId="53cee58a-355e-4e6c-8849-c21189e6a480" valueTypeId="aee986ae-c9b4-45b7-92dd-7e411211dd67"/>
+    <recordType typeId="12391b82-ac3d-4c03-b98a-403ee463c01f" valueTypeId="fe901f87-514e-47c6-b15c-057daa4e3c48"/>
+    <recordManagerType typeId="5fe9203d-b843-48ed-9407-923dec624993" valueTypeId="a8d783db-8771-42bb-94bc-34131f498179"/>
+  </producedTypes>
+  <name>ОСМИ_ДатыОбновлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ Статусы доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="db59053a-c9f8-425c-9c81-8197a85e7943">
+    <name>ПоследнееОбновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Последнее обновление</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fa31bd9d-8f60-40f6-9ca3-d56bc51b3039">
+    <name>Карта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОСМИ_ЭлектронныеКарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

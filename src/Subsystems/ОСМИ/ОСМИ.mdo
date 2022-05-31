@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a91f3651-4e43-475c-8752-22c4fbb9ba51">
+  <name>ОСМИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Подсистема_ОСМИ</picture>
+  </picture>
+  <content>DataProcessor.ОСМИ_МастерПоНастройке</content>
+  <content>Catalog.ОСМИ_ШаблоныЭлектронныхКарт</content>
+  <content>Catalog.ОСМИ_ЭлектронныеКарты</content>
+  <content>Catalog.ОСМИ_ИсточникиДанных</content>
+  <content>Catalog.ОСМИ_НастройкиСобытий</content>
+  <content>Document.ОСМИ_ПушРассылка</content>
+  <content>Document.ОСМИ_ДинамическаяАкция</content>
+  <content>Catalog.ОСМИ_Картинки</content>
+  <content>936c812e-7f5b-4ccb-a309-1b69720380eb</content>
+  <content>Catalog.ОСМИ_РегистрационныеГруппы</content>
+  <content>Report.ОСМИ_СтатусыДоставок</content>
+  <content>b974e6d2-c506-4f05-8fd7-590f927f2706</content>
+  <content>e977a65d-da75-45d8-848d-19b8592de672</content>
+  <content>b4874661-a7db-4d0d-9bab-ca48b6120ace</content>
+  <content>CommonPicture.Подсистема_ОСМИ</content>
+</mdclass:Subsystem>
